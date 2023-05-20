@@ -1,0 +1,33 @@
+.page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto auto;
+    margin-top: 5em;
+    width: 40%;
+    background-color: white;
+}
+
+.title{
+    padding-top: 1em;
+}
+
+.button{
+    background-color: #dad7cd;
+    border: 1px solid #588157;
+    width: 5em;
+    height: 2em;
+    border-radius: 1em;
+    margin-bottom: 1em;
+}
+
+.button:hover{
+    background-color: #588157;
+    cursor: pointer;
+    color: white;
+}
+
+.messageContainer{
+    margin: 1em 1em 1em 1em;
+}
